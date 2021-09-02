@@ -1,9 +1,18 @@
 .dev1, .dev2, .dev3{
-    display: flex;
+    display:flex;
     flex-direction: column;
     margin-bottom: 20px;
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 5px 5px 10px black;
+}
+
+@media (min-width:769px){
+    .pai{
+        display: flex;
+    }
+    .dev1, .dev2, .dev3{
+        margin-right: 20px;
+    }
 }
